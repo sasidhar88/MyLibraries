@@ -1,7 +1,7 @@
 def goal = 'clean build'
 def mystage = 'build'
 
-def call (goal,mystage) {
+def call () {
 
   sh """
   echo "This is dfrom the shared library and Hello"
