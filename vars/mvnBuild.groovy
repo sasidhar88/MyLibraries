@@ -1,6 +1,3 @@
-def goal = 'clean build'
-def mystage = 'build'
-
 def call () {
 
   sh """
