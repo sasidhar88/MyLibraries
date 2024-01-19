@@ -1,7 +1,7 @@
 def goal = 'clean build'
 def mystage = 'build'
 
-def mvnBuild (goal,mystage) {
+def call (goal,mystage) {
 
   sh """
   echo "This is dfrom the shared library and Hello"
